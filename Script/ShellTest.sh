@@ -4,9 +4,9 @@ git clone \
                                        --depth 1  \
                                        --filter=blob:none  \
                                        --sparse \
-                                       https://github.com/fcitx/fcitx5-bamboo \
+                                       https://github.com/vuongtuha/fcitx-bamboo \
                                  ;
-cd fcitx5-bamboo;
+cd fcitx-bamboo;
 git sparse-checkout set Script;
 sudo eselect repository enable gentoo-zh && sudo emerge --sync;
 sudo mkdir -p /var/db/repos/gentoo-zh/app-i18n/fcitx-bamboo/;
